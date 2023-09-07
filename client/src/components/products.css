@@ -1,0 +1,156 @@
+.urunler-container{
+    background-color: blanchedalmond;
+}
+
+.logout-button {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 4px;
+  }
+  
+.logout-button:hover {
+    background-color: #d32f2f;
+ }
+
+ul > li{
+    list-style: none;
+}
+
+h3{
+    color: chocolate;
+ }
+   
+.header{
+  padding: 12px 10px 3px 12px;
+  flex-grow: 1;
+}
+
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 100%; 
+}
+
+.card h3 {
+  margin: 0;
+  color: #333;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.action-button {
+  background-color: #91bc39;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #78b303;
+}
+
+.urun-ekleme{
+  padding: 20px;
+}
+
+.edit-form{
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-layout .card {
+  flex-basis: calc(33.33% - 20px); 
+  margin: 10px;
+}
+
+.button-container button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+
+.layout-button {
+  background-color: #47acbc;
+  color: white;
+  margin-right: 10px; 
+}
+
+.layout-button:hover {
+  background-color: #025764b8;
+}
+
+.layout-button:last-child {
+  margin-top: 4px;
+}
+
+
+.layout-button:nth-last-child(2) {
+  margin-right: 10px;
+  margin-left: 940px;
+}
+
+.urun-ekleme input,
+.edit-form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 3px ;
+}
+
+.urun-ekleme .action-button,
+.edit-form .action-button {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 3px ;
+}
+
+#silme{
+  background-color: #c9392f;
+}
+
+#silme:hover{
+  background-color: #7c0303;
+}
+
+
