@@ -25,14 +25,14 @@ app.use(
   })
 );
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, "static")));
+//app.use(express.json());
+//app.use(express.urlencoded({ extended: true }));
+//app.use(express.static(path.join(__dirname, "static")));
 
 const connection = mysql2.createConnection({
   host: "localhost",
   user: "root",
-  password: "deneme12",
+  password: "",
   database: "trade",
 });
 
